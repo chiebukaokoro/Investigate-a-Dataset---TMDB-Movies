@@ -4,27 +4,27 @@
 ## Dataset Description
 This data set contains information about 10,866 movies collected from The Movie Database (TMDb), including user ratings and revenue. Certain columns, like ‘cast’ and ‘genres’, contain multiple values separated by pipe (|) characters. The final two columns ending with “_adj” show the budget and revenue of the associated movie in terms of 2010 dollars, accounting for inflation over time. Belpow are description of each columns present in the dataset:
 
-*) id - movies primary keys
-*) imdb_id - movies unique IMDb identification
-*) popularity - how much that movie page has been visited in the current week on IMDb
-*) Budget - expected amount (money) the movies should generate
-*) Revenue - actual amount (money) the movies generated
-*) original title - Contains the titles of the movies
-*) cast - actors that featured in the movies
-*) homepage - website of the movies
-*) director - name(s) of the movie director
-*) tagline - movies catchphrase/slogans
-*) keywords - keywords that can be used to search for the movie
-*) overview - synopsis of the movies
-*) runtime - duration (minutes) of the movies
-*) genres - genres and subgenres of the movies
-*) production_companies - company(ies) that produced the movies
-*) release_date - date (mm/dd/yyyy) when movie was released
-*) vote_count - count of votes for the movies on IMDb
-*) vote_average - average rating of the movies on IMDb
-*) release_year - year the movies was released
-*) budget_adj - expected amount (money) the movies should generate adjusted to account for inflation over time
-*) revenue_adj - actual amount (money) the movies generated adjusted to account for inflation over time
+* id - movies primary keys
+* imdb_id - movies unique IMDb identification
+* popularity - how much that movie page has been visited in the current week on IMDb
+* Budget - expected amount (money) the movies should generate
+* Revenue - actual amount (money) the movies generated
+* original title - Contains the titles of the movies
+* cast - actors that featured in the movies
+* homepage - website of the movies
+* director - name(s) of the movie director
+* tagline - movies catchphrase/slogans
+* keywords - keywords that can be used to search for the movie
+* overview - synopsis of the movies
+* runtime - duration (minutes) of the movies
+* genres - genres and subgenres of the movies
+* production_companies - company(ies) that produced the movies
+* release_date - date (mm/dd/yyyy) when movie was released
+* vote_count - count of votes for the movies on IMDb
+* vote_average - average rating of the movies on IMDb
+* release_year - year the movies was released
+* budget_adj - expected amount (money) the movies should generate adjusted to account for inflation over time
+* revenue_adj - actual amount (money) the movies generated adjusted to account for inflation over time
 
 # Question(s) for Analysis
 The following questions were proposed and answered:
